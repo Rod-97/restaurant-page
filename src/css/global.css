@@ -42,7 +42,7 @@
 }
 
 #content {
-  background-image: url("./images/home.jpg");
+  background-image: url("../images/home.jpg");
   background-size: cover;
   color: var(--deep-purple);
   height: 100vh;
