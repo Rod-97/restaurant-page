@@ -1,3 +1,88 @@
-body {
-  background-color: blue;
+:root {
+  --coral-bg: rgba(255, 127, 80, 0.8);
+  --coral: rgb(255, 127, 80);
+  --deep-purple: rgb(75, 0, 130);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--coral);
+}
+
+#header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100%;
+  padding: 10px;
+}
+
+#header button {
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+  color: var(--coral);
+  cursor: pointer;
+  height: 100%;
+  width: 75px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+#content {
+  background-image: url("./images/home.jpg");
+  background-size: cover;
+  color: var(--deep-purple);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-weight: bold;
+}
+
+#content .text-container {
+  background-color: var(--coral-bg);
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+}
+
+#content h1 {
+  color: white;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#content p {
+  font-size: 18px;
+}
+
+@media (min-width: 700px) {
+  #header button {
+    background-color: var(--coral);
+    color: white;
+
+    &:hover {
+      background-color: white;
+      color: var(--coral);
+    }
+  }
+
+  #content .text-container {
+    width: 500px;
+  }
 }
