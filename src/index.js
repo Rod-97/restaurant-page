@@ -1,7 +1,7 @@
-import "../css/global.css";
-import { displayHome } from "./home.js";
-import { displayMenu } from "./menu.js";
-import { displayAbout } from "./about.js";
+import "./styles.css";
+import { displayHome } from "./modules/home.js";
+import { displayMenu } from "./modules/menu.js";
+import { displayAbout } from "./modules/about.js";
 
 displayHome();
 
