@@ -41,7 +41,7 @@
   padding: 10px;
 }
 
-#content {
+#home {
   background-image: url("../images/home.jpg");
   background-size: cover;
   color: var(--deep-purple);
@@ -54,20 +54,20 @@
   font-weight: bold;
 }
 
-#content .text-container {
+#home .text-container {
   background-color: var(--coral-bg);
   padding: 20px;
   border-radius: 20px;
   width: 300px;
 }
 
-#content h1 {
+#home h1 {
   color: white;
   margin-bottom: 30px;
   text-align: center;
 }
 
-#content p {
+#home p {
   font-size: 18px;
 }
 
@@ -82,7 +82,7 @@
     }
   }
 
-  #content .text-container {
+  #home .text-container {
     width: 500px;
   }
 }
